@@ -1,0 +1,25 @@
+.idea/
+.DS_Store
+Thumbs.db
+node_modules/
+.obsidian/workspace*.json
+.obsidian/cache
+.obsidian/plugins/*/data.json
+
+# Local Codex working files and temporary PDF page renders
+.codex/config.toml
+.codex/tmp/
+.tmp_pdf_pages/
+tmp_pdf_pages/
+
+# Local-only study assets and validation artifacts
+/01-会计/03.完整讲义/
+/.local-artifacts/
+/output/
+*.pdf
+*.xlsx
+
+# Legacy locations of local review artifacts (kept ignored on other checkouts)
+/.local-design-qa/
+/design-qa.md
+/docs/content-review/
